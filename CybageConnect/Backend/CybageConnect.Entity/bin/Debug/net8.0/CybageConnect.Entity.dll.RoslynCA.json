@@ -1,0 +1,1824 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-7.23558.1 (e0917286)",
+        "semanticVersion": "4.8.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS1030",
+          "level": "warning",
+          "message": "#warning: 'To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 10,
+                  "endLine": 41,
+                  "endColumn": 380
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8613",
+          "level": "warning",
+          "message": "Nullability of reference types in return type of 'Task<Comment?> CommentRepository.GetCommentById(int commentId)' doesn't match implicitly implemented member 'Task<Comment> ICommentRepository.GetCommentById(int commentId)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/CommentRepository.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 37,
+                  "endLine": 34,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8613",
+          "level": "warning",
+          "message": "Nullability of reference types in return type of 'Task<List<Post>?> PostRepository.GetAllPosts()' doesn't match implicitly implemented member 'Task<List<Post>> IPostRepository.GetAllPosts()'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/PostRepository.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 40,
+                  "endLine": 20,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8613",
+          "level": "warning",
+          "message": "Nullability of reference types in return type of 'Task<Post?> PostRepository.GetPostById(int id)' doesn't match implicitly implemented member 'Task<Post> IPostRepository.GetPostById(int id)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/PostRepository.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 34,
+                  "endLine": 71,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field 'entitystate' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 16,
+                  "endLine": 17,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 33,
+                  "endLine": 15,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Categories' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 36,
+                  "endLine": 18,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Comments' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 35,
+                  "endLine": 20,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Connections' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 38,
+                  "endLine": 22,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Experiences' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 38,
+                  "endLine": 24,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Likes' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 32,
+                  "endLine": 26,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Posts' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 32,
+                  "endLine": 28,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Projects' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 35,
+                  "endLine": 30,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Skills' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 33,
+                  "endLine": 32,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Users' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 32,
+                  "endLine": 34,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'UserProjects' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 39,
+                  "endLine": 36,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'UserSkills' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 37,
+                  "endLine": 38,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Categories' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 36,
+                  "endLine": 18,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Comments' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 35,
+                  "endLine": 20,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Connections' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 38,
+                  "endLine": 22,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Experiences' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 38,
+                  "endLine": 24,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Likes' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 32,
+                  "endLine": 26,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Posts' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 32,
+                  "endLine": 28,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Projects' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 35,
+                  "endLine": 30,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Skills' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 33,
+                  "endLine": 32,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Users' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 32,
+                  "endLine": 34,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'UserProjects' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 39,
+                  "endLine": 36,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'UserSkills' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 37,
+                  "endLine": 38,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/CommentRepository.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 24,
+                  "endLine": 31,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 29,
+                  "endLine": 26,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 24,
+                  "endLine": 27,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 24,
+                  "endLine": 31,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "The variable 'ex' is declared but never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 30,
+                  "endLine": 29,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/AuthRepository.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 24,
+                  "endLine": 32,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/AuthRepository.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 24,
+                  "endLine": 41,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/AuthRepository.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 24,
+                  "endLine": 46,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "The variable 'ex' is declared but never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 30,
+                  "endLine": 57,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "The variable 'ex' is declared but never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/AuthRepository.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 30,
+                  "endLine": 70,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "The variable 'ex' is declared but never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/AuthRepository.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 30,
+                  "endLine": 82,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "The variable 'ex' is declared but never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/PostRepository.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 31,
+                  "endLine": 63,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'entity' in 'EntityEntry<Like> DbSet<Like>.Remove(Like entity)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/LikeRepository.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 39,
+                  "endLine": 67,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/NetworkRepository.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 24,
+                  "endLine": 106,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/NetworkRepository.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 24,
+                  "endLine": 128,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/NetworkRepository.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 24,
+                  "endLine": 146,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'ProfileRepository.entitystate' is never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 33,
+                  "endLine": 15,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Experience' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/Experience.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Connection' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/Connection.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Like' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/Like.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Post' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/Post.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'CybageConnectDbContext' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 22,
+                  "endLine": 7,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Project' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/Project.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Skill' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/Skill.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'UserProject' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/UserProject.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'UserSkill' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/UserSkill.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'entitystate'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/ProfileRepository.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 9,
+                  "endLine": 15,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Comment' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/Comment.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'User' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/User.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Category' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/Category.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3251",
+          "level": "warning",
+          "message": "Supply an implementation for this partial method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 5,
+                  "endLine": 263,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Repositories/LikeRepository.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 45,
+                  "endLine": 36,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3251",
+          "level": "warning",
+          "message": "Supply an implementation for the partial method, otherwise this call will be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Project/CybageConnect/Backend/CybageConnect.Entity/Models/CybageConnectDbContext.cs",
+                "region": {
+                  "startLine": 260,
+                  "startColumn": 9,
+                  "endLine": 260,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0168": {
+          "id": "CS0168",
+          "shortDescription": "Variable is declared but never used",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS0169": {
+          "id": "CS0169",
+          "shortDescription": "Field is never used",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0169)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1030": {
+          "id": "CS1030",
+          "shortDescription": "#warning directive",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1030)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8600": {
+          "id": "CS8600",
+          "shortDescription": "Converting null literal or possible null value to non-nullable type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8600)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Possible null reference return.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Possible null reference argument.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8613": {
+          "id": "CS8613",
+          "shortDescription": "Nullability of reference types in return type doesn't match implicitly implemented member.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8613)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "Redundant Boolean literals should be removed from expressions to improve readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1144": {
+          "id": "S1144",
+          "shortDescription": "Unused private types or members should be removed",
+          "fullDescription": "private or internal types or private members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S3251": {
+          "id": "S3251",
+          "shortDescription": "Implementations should be provided for \"partial\" methods",
+          "fullDescription": "partial methods allow an increased degree of flexibility in programming a system. Hooks can be added to generated code by invoking methods that define their signature, but might not have an implementation yet. But if the implementation is still missing when the code makes it to production, the compiler silently removes the call. In the best case scenario, such calls simply represent cruft, but in they worst case they are critical, missing functionality, the loss of which will lead to unexpected results at runtime.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3251",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S3903": {
+          "id": "S3903",
+          "shortDescription": "Types should be defined in named namespaces",
+          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
