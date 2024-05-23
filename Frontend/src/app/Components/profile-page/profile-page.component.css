@@ -1,0 +1,129 @@
+section{
+    height: 100dvh;
+   
+}
+
+.card-header{
+    background: rgb(91,94,207);
+    background: linear-gradient(45deg, rgba(91,94,207,1) 0%, rgba(91,168,241,1) 100%);
+    color: #fff;
+}
+
+
+
+#imageDiv {
+    height: 150px;
+    width: 150px;
+    border: 5px solid white;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.profile-title {
+  
+    font-family: "poppins";
+    font-weight: 800;
+    color: rgb(177, 177, 177);
+}
+
+button{
+    border: 2px solid #119596;
+    color: rgb(91,94,207);
+
+}
+
+button:hover{
+    background: rgb(91,94,207);
+    background: linear-gradient(45deg, rgba(91,94,207,1) 0%, rgba(91,168,241,1) 100%);
+    color: #fff;
+}
+
+#profile-tab-pane{
+
+    .profile-pic-container {
+    
+        height: 250px;
+        width: 250px;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+#editProfile .btn{
+    border-radius: 10px;
+    background: rgb(91,94,207);
+    background: linear-gradient(45deg, rgba(91,94,207,1) 0%, rgba(91,168,241,1) 100%);
+    color: white;
+    padding: 0.5rem 1rem ;
+    margin: 5px;
+}
+
+#profile-tab-pane .btn{
+    background: rgb(91,94,207);
+background: linear-gradient(45deg, rgba(91,94,207,1) 0%, rgba(91,168,241,1) 100%);
+    color: #fff;
+}
+
+#profile-tab-pane .btn:hover{
+    background: rgb(91,94,207);
+    background: linear-gradient(45deg, rgba(91,94,207,1) 0%, rgba(91,168,241,1) 100%);
+}
+
+.social-accounts-links-container {
+    display: flex;
+    gap: 1rem;
+
+    a {
+        background: rgb(23, 23, 23);
+    }
+}
+
+#overview-tab-pane .col-5{
+    padding: 10px 0;
+}
+
+#overview-tab-pane .col-7{
+    padding: 10px 0;
+}
+
+
+.main-container{
+    padding-top: 4.5rem !important;
+}
+
+.nav-item{
+    .active{
+        color: #fff;
+        background: rgb(91,94,207);
+        background: linear-gradient(45deg, rgba(91,94,207,1) 0%, rgba(91,168,241,1) 100%);
+    }
+}
+
+#sidePanel1 {
+    --s: 15px; /* control the size */
+
+    --c: #dbdbdb00, #f9f9f9 0.5deg 119.5deg, #ececec00 120deg;
+    --g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));
+    --g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));
+    --g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));
+    background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)), var(--g2),
+      var(--g2) var(--s) calc(1.73 * var(--s)), var(--g3) var(--s) 0,
+      var(--g3) 0 calc(1.73 * var(--s)) #ffffff;
+    background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
+}

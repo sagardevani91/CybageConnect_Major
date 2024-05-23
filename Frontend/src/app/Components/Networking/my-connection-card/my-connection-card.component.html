@@ -1,0 +1,27 @@
+
+<div class="container card m-2">
+  <div class="innerContainer">
+    <div class="image-container">
+
+      <img
+        [src]="user.profilePicture ? user.profilePicture : defaultImage"
+        alt="pic"
+        class="image"
+      />
+    </div>
+    <div class="details-container">
+      <h5 class="card-title">{{ user.firstName }} {{ user.lastName }}</h5>
+      <p class="card-text text-muted">
+        <span>Email : </span>{{ user.email }}
+      </p>
+      <p class="card-text text-muted">
+        <span>Designation : </span>{{ user.designation }}
+      </p>
+      <p class="card-text text-muted"><span>Location : </span>{{ user.location }}</p>
+    </div>
+
+    <a class="button-43" (click)="disconnectConnection(user.id)">
+     - Remove
+    </a>
+  </div>
+</div>

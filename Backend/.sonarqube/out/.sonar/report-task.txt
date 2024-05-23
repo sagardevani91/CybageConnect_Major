@@ -1,0 +1,6 @@
+projectKey=CybageConnect:master
+serverUrl=http://localhost:9000
+serverVersion=8.9.10.61524
+dashboardUrl=http://localhost:9000/dashboard?id=CybageConnect%3Amaster
+ceTaskId=AY8O3TEg-e81I-37PxQh
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY8O3TEg-e81I-37PxQh

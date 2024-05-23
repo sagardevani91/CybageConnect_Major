@@ -1,0 +1,119 @@
+*{
+  border: none !important;
+}
+
+.searchBox {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+  position: relative;
+  /* box-shadow: rgba(100, 100, 111, 0.1) 0px 15px 10px -10px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-bottom: 5rem;
+}
+
+svg{
+  fill:white;
+}
+
+/*hover effect*/
+button:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+  transform: translateY(-3px);
+}
+
+/*button pressing effect*/
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 15px;
+  padding: 24px 46px 24px 26px;
+}
+
+.pendingConnection {
+  margin-bottom: 5rem;
+  padding: 1rem !important;
+  padding: 1rem;
+}
+
+.sendConnection {
+  margin-bottom: 5rem;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  gap: 2rem !important;
+  padding: 2rem !important;
+  /* background: transparent !important; */
+  box-shadow: none !important;
+  margin-top: 0 !important;
+}
+
+.connection-requests {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  /* margin-top: 3rem; */
+}
+
+.my-connections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  top: 8rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(165, 164, 164);
+  text-transform: capitalize;
+  /* letter-spacing: 1px; */
+  margin-bottom: 20px;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 750px) {
+  .connection-requests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: none;
+  }
+
+  .my-connections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: none;
+  }
+}
+
+
+p {
+  margin: 0;
+}
